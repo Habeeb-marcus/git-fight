@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.splash-page {
+    text-align: center;
+}
+.container {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    padding: 90px 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    padding-left: 0;
+}
+
+.btn-start, .init-btn, .continue, .start-over {
+    color: #fff;
+    background-color: green;
+    border: none;
+}
+
+
+.btn-start, .start-over {
+        padding: 10px 14px;
+    border-radius: 10px;
+}
+.btns:hover{
+  filter: brightness(1.13);
+}
+
+.title {
+    font-size: 70px;
+    margin-bottom: 2px;
+}
+
+.slogan{
+    font-size: 35px;
+    margin-top: 6px;
+}
+
+
+.btn {
+    padding:  10px 40px;
+    border: none;
+    border-radius: 23px;
+    width: 200px;
+    height: 60px;
+}
+
+
+.label {
+    font-size: 58px;
+    font-weight: 600;
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+.player-form {
+    display: flex;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.input {
+    width: 100%;
+    height: 35px;
+    padding: 10px 15px;
+    margin: 20px auto;
+}
+
+.form-container {
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.continue {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+.box, .list {
+ width: 100%;
+ /* border: 1px solid #252525; */
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    border: 2px solid #f2f2f2;
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.player-cont, .result-cont {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+}
+
+.ul {
+        width: 100%;
+}
+
+.details-cont, .result-page {
+   
+    width: 80%;
+    text-align: center;
+    /* justify-content: center; */
+    /* display: flex; */
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.init-btn, .reset-btn {
+    border: none;
+    border-radius: 10px;
+        /* width: 20%; */
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+.reset-btn {
+ color: white;
+ background-color: lightblue;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Fight</title>
+      <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container ">
+        <div  class="splash-page" id="splash-page">
+        <h1 class="title">Github Battle</h1>
+        <h3 class="slogan">some battles are worth fighting ;)</h3>
+        <button class="btn-start btns"  id="btn-start" > Get Started</button>
+        </div>
+
+
+        <!-- player one page -->
+        <div class="hidden form-container" id="player-page1" >
+           
+            <Form class="player-form  form-one one" >
+                 <label class="label" for="player one">Player One</label>
+                <input class="input user" type="text" name="player one"  onfocus="this.value=''" id="player-one" placeholder="Git-user" required/>
+                <button class="continue btns" type="submit"> Continue</button>
+
+                <p class="err-message" ></p>
+            </Form>
+        </div>
+
+        <!-- player two page -->
+        <div class="form-container hidden"  id="player-page2" >
+           
+            <Form class="player-form form-two two">
+                 <label class="label" for="player two">Player Two</label>
+                <input class="input user" type="text" name="player two"  onfocus="this.value=''" id="player-two" placeholder="Git-user" required/>
+
+                <button type="submit" class="continue btns">Continue </button>
+                <p class="err-message1"></p>
+            </Form>
+
+
+            <!-- <ul class="box">
+                <li class="list" ><img src=""/></li>
+                <li class="list">Name: null</li>
+                <li class="list">Username: null</li>
+                <li class="list"> Follower: 0</li>
+                <li class="list">Following: 0</li>
+                <li class="list">Public repo: 1</li>
+            </ul> -->
+
+        </div>
+
+         <!-- player details page  -->
+  
+      <div class="details-cont hidden " id="details-cont" >
+        <h1>Confirm players</h1>
+        <div class="details">
+            <div class="player-cont details-one">
+                <h4>Player 1</h4>
+            <ul class="ul">
+                <li class="list" ><img src="" style="width: 200px;"/></li>
+                <li class="list name"></li>
+                <li class="list username"></li>
+                <li class="list follower"> </li>
+                <li class="list following"></li>
+                <li class="list repo"></li>
+            </ul>
+            </div>
+            <div class="player-cont details-two">
+                <h4>Player 2</h4>
+            <ul class="ul">
+                <li class="list" ><img src="" style="width: 200px;"/></li>
+                <li class="list name"></li>
+                <li class="list username"></li>
+                <li class="list follower"> </li>
+                <li class="list following"></li>
+                <li class="list repo"></li>
+            </ul>
+            </div>
+         
+        </div>
+
+        <div class="btn-cont ">
+            <button class="init-btn btns ">Initiate battle</button>
+            <button class="reset-btn  btns">Reset players</button>
+        </div>
+    </div>
+
+
+        <!-- result page -->
+    <div class="result-page hidden ">
+        <h1 >Winner</h1>
+                <div class="details">
+            <div class="result-cont winner">
+                <h4 class="type">Winner</h4>
+            <ul class="ul">
+                 <li class="list score"> </li>
+                <!-- <li class="list" ><img src=""/></li>
+                <li class="list">Name: null</li>
+                <li class="list">Username: null</li>
+                <li class="list"> Follower: 0</li>
+                <li class="list">Following: 0</li>
+                <li class="list">Public repo: 1</li> -->
+            </ul>
+            </div>
+            <div class="result-cont loser">
+                <h4 class="type">Loser</h4>
+            <ul class="ul">
+                <li class="list score"></li>
+                <!-- <li class="list" ><img src=""/></li>
+                <li class="list">Name: null</li>
+                <li class="list">Username: null</li>
+                <li class="list"> Follower: 0</li>
+                <li class="list">Following: 0</li>
+                <li class="list">Public repo: 1</li> -->
+            </ul>
+            </div>
+         
+        </div>
+        <button class="start-over btns"><a href="./index.html">Start Over </a></button>
+    </div>
+
+
+    </div>
+    <script src="./app.js"></script>
+    <!-- <script src="./scripts2.js"></script> -->
+</body>
+</html>
