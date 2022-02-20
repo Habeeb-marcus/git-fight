@@ -117,7 +117,7 @@ li {
 .details {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .player-cont, .result-cont {
